@@ -3,10 +3,8 @@ body {
   background-color: #ffffff;
   font-family: "Roboto", sans-serif;
 }
-span {
-  color: #2e2f42;
-}
-.logo {
+
+.logo, .logo_foot {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -15,6 +13,12 @@ span {
   text-decoration: none;
   letter-spacing: 0.03em;
   color: #4d5ae5;
+}
+.logo span {
+  color: #2e2f42;
+}
+.logo_foot span {
+  color: #f4f4fd;
 }
 .header-adress-link {
   color: #434455;
@@ -52,7 +56,7 @@ span {
   line-height: 1.07;
   letter-spacing: 0.02em;
 }
-.team_page_item {
+.team_page_title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -61,7 +65,7 @@ span {
   letter-spacing: 0.02em;
   text-transform: capitalize;
 }
-.portfolio_page_item {
+.portfolio_page_title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -70,9 +74,9 @@ span {
   letter-spacing: 0.02em;
   text-transform: capitalize;
 }
-.portfolio_item,
-.team_name,
-.priorities {
+.portfolio_subtitle,
+.team_subtitle,
+.priorities_subtitle {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -93,9 +97,9 @@ span {
 .btn:focus {
   background-color: #404bbf;
 }
-.page_p_one,
-.page_p_three,
-.team_job {
+.priorities_item,
+.porffolio_item,
+.team_item {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -103,10 +107,10 @@ span {
 .team_page {
   background-color: #f4f4fd;
 }
-.team_name,
-.team_job {
+.team_page_list {
   text-align: center;
   letter-spacing: 0.02em;
+  background-color: #ffffff;
 }
 a {
   text-decoration: none;
@@ -120,15 +124,11 @@ address {
 .foot {
   background-color: #2e2f42;
 }
-.foot_page {
+.foot_item {
   color: #f4f4fd;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.logo_foot {
-  color: #f4f4fd;
-}
-.team_fone {
-  background-color: #ffffff;
-}
+
+
