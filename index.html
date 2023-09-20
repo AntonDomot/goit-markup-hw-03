@@ -4,10 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
-    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css" integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -23,13 +20,13 @@
       <nav class="head_nav">
         <a href="./index.html" class="logo">Web<span>Studio</span></a>
         <ul>
-          <li>
+          <li class="head_item">
             <a href="./index.html" class="header-nav-link">Studio</a>
           </li>
-          <li>
+          <li class="head_item">
             <a href="" class="header-nav-link">Portfolio</a>
           </li>
-          <li>
+          <li class="head_item">
             <a href="" class="header-nav-link">Contacts</a>
           </li>
         </ul>
@@ -61,29 +58,29 @@
       <section class="priorities">
         <div class="container">
         <h2 class="visually-hidden">Feature</h2>
-        <ul>
-          <li>
+        <ul class="priorities_flex">
+          <li class="priorities_list">
             <h3 class="priorities_subtitle">Strategy</h3>
             <p class="priorities_item">
               Our goal is to identify the business problem to walk away with the
               perfect and creative solution.
             </p>
           </li>
-          <li>
+          <li class="priorities_list">
             <h3 class="priorities_subtitle">Punctuality</h3>
             <p class="priorities_item">
               Bring the key message to the brand's audience for the best price
               within the shortest possible time.
             </p>
           </li>
-          <li>
+          <li class="priorities_list">
             <h3 class="priorities_subtitle">Diligence</h3>
             <p class="priorities_item">
               Research and confirm brands that present the strongest digital
               growth opportunities and minimize risk.
             </p>
           </li>
-          <li>
+          <li class="priorities_list">
             <h3 class="priorities_subtitle">Technologies</h3>
             <p class="priorities_item">
               Design practice focused on digital experiences. We bring forth a
@@ -96,7 +93,7 @@
       <section class="team_page">
         <div class="container">
         <h2 class="team_page_title">Our Team</h2>
-        <ul>
+        <ul class="team_flex">
           <li class="team_page_list">
             <img class="team_page_foto"
               src="./images/guerrero.jpg"
@@ -143,7 +140,7 @@
       <section class="portfolio_page">
         <div class="container">
         <h2 class="portfolio_page_title">Our Portfolio</h2>
-        <ul>
+        <ul class="portfolio_flex">
           <li class="portfolio_item">
             <img class="portfolio_foto"
               src="./images/img_1.jpg"
@@ -151,8 +148,10 @@
               width="360"
               height="300"
             />
-            <h3 class="portfolio_subtitle">Banking App</h3>
-            <p class="portfolio_item_text">App</p>
+            <div class="rama">
+              <h3 class="portfolio_subtitle">Banking App</h3>
+              <p class="portfolio_item_text">App</p>
+            </div>
           </li>
           <li class="portfolio_item">
             <img class="portfolio_foto"
@@ -161,8 +160,10 @@
               width="360"
               height="300"
             />
-            <h3 class="portfolio_subtitle">Cashless Payment</h3>
-            <p class="portfolio_item_text">Marketing</p>
+            <div class="rama">
+              <h3 class="portfolio_subtitle">Cashless Payment</h3>
+              <p class="portfolio_item_text">Marketing</p>
+            </div>
           </li>
           <li class="portfolio_item">
             <img class="portfolio_foto"
@@ -171,8 +172,10 @@
               width="360"
               height="300"
             />
-            <h3 class="portfolio_subtitle">Meditation App</h3>
-            <p class="portfolio_item_text">App</p>
+            <div class="rama">
+              <h3 class="portfolio_subtitle">Meditation App</h3>
+              <p class="portfolio_item_text">App</p>
+            </div>
           </li>
           <li class="portfolio_item">
             <img class="portfolio_foto"
@@ -181,8 +184,10 @@
               width="360"
               height="300"
             />
-            <h3 class="portfolio_subtitle">Taxi Service</h3>
-            <p class="portfolio_item_text">Marketing</p>
+            <div class="rama">
+              <h3 class="portfolio_subtitle">Taxi Service</h3>
+              <p class="portfolio_item_text">Marketing</p>
+            </div>
           </li>
           <li class="portfolio_item">
             <img class="portfolio_foto"
@@ -191,8 +196,10 @@
               width="360"
               height="300"
             />
-            <h3 class="portfolio_subtitle">Screen Illustrations</h3>
-            <p class="portfolio_item_text">Design</p>
+           <div class="rama">
+              <h3 class="portfolio_subtitle">Screen Illustrations</h3>
+              <p class="portfolio_item_text">Design</p>
+           </div>
           </li>
           <li class="portfolio_item">
             <img class="portfolio_foto"
@@ -201,8 +208,10 @@
               width="360"
               height="300"
             />
-            <h3 class="portfolio_subtitle">Online Courses</h3>
-            <p class="portfolio_item_text">Marketing</p>
+            <div class="rama">
+              <h3 class="portfolio_subtitle">Online Courses</h3>
+              <p class="portfolio_item_text">Marketing</p>
+            </div>
           </li>
         </ul>
         </div>

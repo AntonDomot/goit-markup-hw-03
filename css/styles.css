@@ -45,7 +45,14 @@ body {
 
 /**===========Header===========*/
 
-.head {padding-top: 24px; padding-bottom: 24px;}
+.head {padding-top: 24px; 
+  padding-bottom: 24px;
+  border-bottom: 1px solid #E7E9FC;
+}
+
+.head_item {}
+
+
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -54,7 +61,8 @@ body {
   text-transform: uppercase;
   text-decoration: none;
   letter-spacing: 0.03em;
-  color: #4d5ae5;}
+  color: #4d5ae5;
+}
 
     .logo span {
       color: #2e2f42;
@@ -99,6 +107,7 @@ padding: 187px 315px 187px 315px;
 .heading {
   color: #ffffff;
   text-align: center;
+  padding-top: 0;padding-bottom: 0;
   }
 
 .heading_title {
@@ -134,6 +143,9 @@ padding: 187px 315px 187px 315px;
 
 .priorities {}
 
+.priorities_flex {display: inline-flex;
+  gap: 24px;}
+
 .priorities_subtitle {
   font-weight: 500;
   font-size: 20px;
@@ -148,6 +160,8 @@ padding: 187px 315px 187px 315px;
   line-height: 1.5;
   letter-spacing: 0.02em;}
 
+    .priorities_list {width: calc((100% - 72px) / 4)}
+
   /**=============third section===================*/
 
 .team_page_title {
@@ -160,6 +174,9 @@ padding: 187px 315px 187px 315px;
   text-transform: capitalize;
   margin-bottom: 72px;
 }
+
+.team_flex {display: inline-flex;
+  gap: 24px;}
 
 .team_subtitle {
   font-weight: 500;
@@ -185,8 +202,9 @@ padding: 187px 315px 187px 315px;
   text-align: center;
   letter-spacing: 0.02em;
   background-color: #ffffff;
-  border-bottom: 4px;
+  border-bottom: 0;
   border-radius: 0px 0px 4px 4px;
+  width: calc((100% - 72px) / 4);
 }
 
 .team_page_foto {margin-bottom: 32px;}
@@ -195,9 +213,9 @@ padding: 187px 315px 187px 315px;
 
 .portfolio_page {}
 
-.portfolio_foto {margin-bottom: 32px;}
+.portfolio_foto {max-width: 100%;}
 
-.portfolio_item {border: 1px solid #E7E9FC;}
+.portfolio_item {width: calc((100% - 48px) / 3);}
 
 .portfolio_page_title {
   font-weight: 700;
@@ -216,6 +234,7 @@ padding: 187px 315px 187px 315px;
   color: #2e2f42;
   letter-spacing: 0.02em;
   margin-bottom: 8px;
+  padding-top: 32px;
 }
 
 .portfolio_item_text {
@@ -223,6 +242,15 @@ padding: 187px 315px 187px 315px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   padding-bottom: 32px;
+}
+
+ .rama {border: 1px solid #E7E9FC;
+padding: 0 16px;
+border-top: none;}
+
+.portfolio_flex {display: flex;
+flex-wrap: wrap;
+gap: 24px;
 }
 
 /**==========Footer==============*/
@@ -234,6 +262,8 @@ padding: 187px 315px 187px 315px;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  max-width: 264px;
+  margin-top: 16px;
 }
 
 .logo_foot {
@@ -245,10 +275,12 @@ padding: 187px 315px 187px 315px;
   text-decoration: none;
   letter-spacing: 0.03em;
   color: #4d5ae5;
-}
+ }
 
 .logo_foot span {
   color: #f4f4fd;
 }
 
-.foot_container {background-color: #2e2f42;}
+.foot_container {background-color: #2e2f42;
+  padding-top: 100px;
+  padding-bottom: 100px;}
