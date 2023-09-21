@@ -50,8 +50,25 @@ body {
   border-bottom: 1px solid #E7E9FC;
 }
 
+.head_nav {display: flex;
+gap: 76px;
+}
+
 .head_item {}
 
+.container_nav {display: flex;
+  justify-content: space-between;
+  }
+
+.head_list {display: flex;
+gap: 40px;}
+
+.head_adress_list {
+  display: flex;
+  gap: 40px;
+  justify-content: flex-end;
+
+}
 
 .logo {
   font-family: "Raleway", sans-serif;
@@ -275,7 +292,7 @@ gap: 24px;
   text-decoration: none;
   letter-spacing: 0.03em;
   color: #4d5ae5;
- }
+   }
 
 .logo_foot span {
   color: #f4f4fd;
@@ -283,4 +300,6 @@ gap: 24px;
 
 .foot_container {background-color: #2e2f42;
   padding-top: 100px;
-  padding-bottom: 100px;}
+  padding-bottom: 100px;
+}
+  
