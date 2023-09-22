@@ -46,6 +46,8 @@ ol {
 
 img {
   display: block;
+  height: auto;
+  max-width: 100%;
 }
 
 section {
@@ -57,8 +59,8 @@ section {
   width: 1158px;
   padding-left: 15px;
   padding-right: 15px;
-  margin-left: 156px;
-  margin-right: 156px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /**===========Header===========*/
@@ -77,8 +79,6 @@ section {
 .container_nav {
   display: flex;
   justify-content: space-between;
-  margin: 0 auto;
-  flex-shrink: 0;
  }
 
 .head_list {
@@ -262,7 +262,7 @@ section {
   flex-basis: calc((100% - 72px) / 4);
   }
 
-.team_page_foto {max-width: 100%;
+.team_page_foto {
 }
 
 .team_job {
@@ -274,7 +274,6 @@ section {
 .portfolio_page {}
 
 .portfolio_foto {
-  max-width: 100%;
 }
 
 .portfolio_item {
