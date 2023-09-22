@@ -40,8 +40,6 @@ p {
   margin-bottom: 0;
 }
 
-nav ul {margin: 0;padding: 0;}
-
 ul,
 ol {
   margin-top: 0;
@@ -230,7 +228,7 @@ section {
 .team_flex {
   display: flex;
   gap: 24px;
-  width: calc((100% - 72px) / 4);
+  
 }
 
 .team_subtitle {
@@ -260,8 +258,10 @@ section {
   background-color: #ffffff;
   border-bottom: 0;
   border-radius: 0px 0px 4px 4px;
-  
-}
+  width: calc((100% - 72px) / 4);
+  }
+
+.team_page_foto {max-width: 100%;}
 
 .team_job {
     padding: 32px 0;;
