@@ -67,7 +67,7 @@ section {
 
 .head {
   border-bottom: 1px solid #E7E9FC;
-  padding: 24px 0;
+
 }
 
 .head_nav {
@@ -75,7 +75,7 @@ section {
    align-items: center;
 }
 
-.head_item {}
+.head_item {padding: 24px 0;}
 
 .container_nav {
   display: flex;
