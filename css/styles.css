@@ -40,6 +40,8 @@ p {
   margin-bottom: 0;
 }
 
+nav ul {margin: 0;padding: 0;}
+
 ul,
 ol {
   margin-top: 0;
@@ -82,7 +84,6 @@ section {
   justify-content: space-between;
   width: 1158px;
   margin: 0 auto;
-  flex-shrink: 0;
 }
 
 .head_list {
