@@ -58,13 +58,17 @@ section {
   padding-right: 15px;
   margin-left: 156px;
   margin-right: 156px;
-  outline: 2px solid red;
 }
 
 /**===========Header===========*/
 
 .head {
   border-bottom: 1px solid #E7E9FC;
+  max-width: 1128px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 156px;
+    margin-right: 156px;
 }
 
 .head_nav {
@@ -77,7 +81,6 @@ section {
 .container_nav {
   display: flex;
   justify-content: space-between;
-  width: 1158px;
   margin: 0 auto;
 }
 
