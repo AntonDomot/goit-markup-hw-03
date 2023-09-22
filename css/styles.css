@@ -21,10 +21,6 @@ a {
   text-decoration: none;
 }
 
-ul {
-  list-style-type: none;
-}
-
 address {
   font-style: normal;
 }
@@ -44,6 +40,7 @@ ul,
 ol {
   margin-top: 0;
   margin-bottom: 0;
+  list-style-type: none;
 }
 
 img {
@@ -61,13 +58,13 @@ section {
   padding-right: 15px;
   margin-left: 156px;
   margin-right: 156px;
+  outline: 2px solid red;
 }
 
 /**===========Header===========*/
 
 .head {
   border-bottom: 1px solid #E7E9FC;
-
 }
 
 .head_nav {
@@ -92,6 +89,7 @@ section {
 .head_adress_list {
   display: flex;
   gap: 40px;
+  
 }
 
 .logo {
@@ -209,7 +207,7 @@ section {
 }
 
 .priorities_list {
-  width: calc((100% - 72px) / 4);
+  flex-basis: calc((100% - 72px) / 4);
 }
 
 /**=============third section===================*/
@@ -258,10 +256,11 @@ section {
   background-color: #ffffff;
   border-bottom: 0;
   border-radius: 0px 0px 4px 4px;
-  width: calc((100% - 72px) / 4);
+  flex-basis: calc((100% - 72px) / 4);
   }
 
-.team_page_foto {max-width: 100%;}
+.team_page_foto {max-width: 100%;
+}
 
 .team_job {
     padding: 32px 0;;
@@ -276,7 +275,7 @@ section {
 }
 
 .portfolio_item {
-  width: calc((100% - 48px) / 3);
+  flex-basis: calc((100% - 48px) / 3);
 }
 
 .portfolio_page_title {
