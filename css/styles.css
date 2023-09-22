@@ -78,6 +78,7 @@ section {
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
+  flex-shrink: 0;
  }
 
 .head_list {
