@@ -150,9 +150,6 @@ section {
 }
 
 .heading_container {
-
-  border: 1px solid #000;
-
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -174,7 +171,7 @@ section {
   line-height: 1.5;
   background-color: #4d5ae5;
   font-family: "Roboto", sans-serif;
-  color: #ffffff;
+  color: hsl(0, 0%, 100%);
   letter-spacing: 0.04em;
   display: block;
   min-width: 169px;
