@@ -74,7 +74,7 @@ section {
    align-items: center;
 }
 
-.head_item {padding: 24px 0}
+.head_item {padding: 24px 0;}
 
 .container_nav {
   display: flex;
