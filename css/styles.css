@@ -65,13 +65,7 @@ section {
 
 .head {
   border-bottom: 1px solid #E7E9FC;
-  max-width: 1158px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-left: 156px;
-    margin-right: 156px;
-    margin: 0 auto;
-}
+ }
 
 .head_nav {
   display: flex;
@@ -84,6 +78,11 @@ section {
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
+  max-width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 156px;
+    margin-right: 156px;
 }
 
 .head_list {
